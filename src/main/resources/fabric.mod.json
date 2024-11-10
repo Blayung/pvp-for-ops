@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+
+    "id": "pvp-for-ops",
+    "version": "${version}",
+
+    "name": "Pvp For Ops",
+    "description": "Have an unfair advantage over others!",
+
+    "license": "GPL-3.0-only",
+    "authors": [
+        "Wojciech Paruch"
+    ],
+
+    "contact": {
+        "homepage": "https://github.com/Blayung/pvp-for-ops",
+        "sources": "https://github.com/Blayung/pvp-for-ops",
+        "issues": "https://github.com/Blayung/pvp-for-ops/issues",
+        "email": "teamaster69@proton.me"
+    },
+
+    "environment": "server",
+    "mixins": [
+        "pvp-for-ops.mixins.json"
+    ]
+}
